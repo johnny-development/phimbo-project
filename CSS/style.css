@@ -72,7 +72,10 @@ body {
 
   /* min-height: 40px; */
   /* background-color: rgba(158, 96, 35, 0.464); */
-  background-color: rgba(1, 16, 25, 0.902);
+  /* background-color: rgba(1, 13, 22, 0.955); */
+  background-color: rgba(1, 4, 12, 0.948);
+  /* background-color: rgba(0, 0, 0, 0.946); */
+  /* background-color: rgba(1, 16, 25, 0.902); */
   /* background-color: rgba(1, 16, 25, 0.757); */
   /* background-color: rgba(9, 50, 77, 0.757); */
 }
@@ -191,7 +194,10 @@ a {
     gap: 0;
     flex-direction: column;
     /* background-color: rgba(158, 96, 35); */
-    background-color: rgba(1, 16, 25, 0.902);
+    background-color: rgba(1, 4, 12, 0.948);
+    /* background-color: rgba(1, 13, 22, 0.955); */
+    /* background-color: rgba(1, 16, 25, 0.902); */
+    /* background-color: rgba(0, 0, 0, 0.946); */
     /* background-color: rgba(1, 16, 25, 0.757); */
     /* background-color: rgba(9, 50, 77, 0.757); */
     /* background-color: rgba(11, 6, 0, 0.884); */
@@ -265,7 +271,10 @@ iframe {
   /* border-top: 1px solid #6e4f4f7f;
   border-bottom: 1px solid #6e4f4f7f;
   box-shadow: 0px 8px 13px -5px #6e4f4f7f; */
-  box-shadow: 0px 8px 25px -3px #000000d2;
+  box-shadow: 0px 5px 5px 0px #000000;
+  -moz-box-shadow: 0px 5px 5px 0px #000000;
+  -webkit-box-shadow: 0px 5px 5px 0px #000000;
+  /* box-shadow: 0px 8px 25px -3px #000000d2; */
   border-radius: 10px 10px 9px 9px;
   justify-items: center;
   align-self: center;
@@ -339,14 +348,16 @@ background propery fills every pixels of the device opposed to background color 
   /* background-color: rgba(255, 255, 255, 0.078); */
   /* background-color: rgba(255, 0, 0, 0.023); */
   background-color: rgba(0, 0, 0, 0.126);
-
+  box-shadow: 0px 5px 5px 0px #000000;
+  -moz-box-shadow: 0px 5px 5px 0px #000000;
+  -webkit-box-shadow: 0px 5px 5px 0px #000000;
   /* box-shadow: 0px 10px 13px -5px #633535a3; */
   /* box-shadow: 0px 8px 10px -8px #c7a003;
   -moz-box-shadow: 0px 8px 10px -8px #c7a003;
   -webkit-box-shadow: 0px 8px 10px -8px #c7a003; */
-  box-shadow: 0px 8px 10px -8px #8d5252;
-  -moz-box-shadow: 0px 8px 10px -8px #8d5252;
-  -webkit-box-shadow: 0px 8px 10px -8px #8d5252;
+  /* box-shadow: 0px 8px 10px -8px #8d5252; */
+  /* -moz-box-shadow: 0px 8px 10px -8px #8d5252;
+  -webkit-box-shadow: 0px 8px 10px -8px #8d5252; */
   /* background-color: #55313164; */
   border: 1px solid #a55c1b;
   /* color: rgba(255, 255, 255, 0.725); */
@@ -381,14 +392,16 @@ background propery fills every pixels of the device opposed to background color 
   /* background-color: rgba(255, 255, 255, 0.078); */
   /* background-color: rgba(255, 0, 0, 0.023); */
   background-color: rgba(0, 0, 0, 0.126);
-
+  box-shadow: 0px 5px 5px 0px #000000;
+  -moz-box-shadow: 0px 5px 5px 0px #000000;
+  -webkit-box-shadow: 0px 5px 5px 0px #000000;
   /* box-shadow: 0px 10px 13px -5px #633535a3; */
   /* box-shadow: 0px 8px 10px -8px #c7a003;
   -moz-box-shadow: 0px 8px 10px -8px #c7a003;
   -webkit-box-shadow: 0px 8px 10px -8px #c7a003; */
-  box-shadow: 0px 8px 10px -8px #8d5252;
+  /* box-shadow: 0px 8px 10px -8px #8d5252;
   -moz-box-shadow: 0px 8px 10px -8px #8d5252;
-  -webkit-box-shadow: 0px 8px 10px -8px #8d5252;
+  -webkit-box-shadow: 0px 8px 10px -8px #8d5252; */
   /* background-color: #55313164; */
   border: 1px solid #a55c1b;
   /* color: rgba(255, 255, 255, 0.725); */
@@ -453,12 +466,15 @@ main {
   /* margin: 8px; */
   /* padding: 6px; */
   /* padding: 3px; */
+  box-shadow: 0px 5px 5px 0px #000000;
+  -moz-box-shadow: 0px 5px 5px 0px #000000;
+  -webkit-box-shadow: 0px 5px 5px 0px #000000;
+  /* box-shadow: 0px 8px 10px -8px #8d5252;
+  -moz-box-shadow: 0px 8px 10px -8px #8d5252;
+  -webkit-box-shadow: 0px 8px 10px -8px #8d5252; */
   /* box-shadow: 0px 8px 10px -8px #c7a003;
   -moz-box-shadow: 0px 8px 10px -8px #c7a003;
   -webkit-box-shadow: 0px 8px 10px -8px #c7a003; */
-  box-shadow: 0px 8px 10px -8px #8d5252;
-  -moz-box-shadow: 0px 8px 10px -8px #8d5252;
-  -webkit-box-shadow: 0px 8px 10px -8px #8d5252;
 }
 
 .img:hover {
@@ -494,7 +510,7 @@ img {
   /* font-family: 'Great Vibes'; */
   text-align: center;
   font-size: 2.2rem;
-  text-shadow: 3px 3px 2px rgb(66, 48, 8);
+  /* text-shadow: 3px 3px 2px rgb(66, 48, 8); */
 }
 
 .paging-sep {
@@ -513,7 +529,7 @@ img {
   /* font-family: 'Great Vibes'; */
   text-align: center;
   font-size: 1.5rem;
-  text-shadow: 3px 3px 2px rgb(88, 78, 78);
+  /* text-shadow: 3px 3px 2px rgb(88, 78, 78); */
   color: rgb(243, 168, 6);
   /* color: rgb(250, 0, 0); */
   text-decoration: none;
@@ -575,7 +591,7 @@ textarea {
   width: 30%;
   height: 40px;
   max-width: 130px;
-  box-shadow: 0px 8px 10px -8px #8d5252;
+  /* box-shadow: 0px 8px 10px -8px #8d5252; */
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.131);
   border: 1px solid #a55c1b;
@@ -601,7 +617,7 @@ textarea {
 .footer-button {
   width: 100%;
   max-width: 180px;
-  box-shadow: 0px 8px 10px -8px #8d5252;
+  /* box-shadow: 0px 8px 10px -8px #8d5252; */
   background-color: transparent;
   background-color: rgba(0, 0, 0, 0.131);
   border: 1px solid #a55c1b;
