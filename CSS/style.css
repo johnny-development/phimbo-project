@@ -12,7 +12,7 @@ html {
   background-repeat: repeat;
   min-height: 100vh;
   max-width: 100%;
-  background-image: url(/greysquare.svg);
+  background-image: url(/new-bg-square3.svg);
 }
 
 /* use background selector via html rather than body for better experience on mobile */
