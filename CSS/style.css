@@ -284,8 +284,15 @@ background property fills every pixels of the device opposed to background color
   background-color: transparent;
   background-color: #836b0b56;
   color: rgba(255, 255, 255, 0.897);
-  transform: skew(-20deg);
+  /* transform: skew(-20deg); */
+  transform: translateY(4px);
   border: 1px solid #a55c1b;
+}
+
+.button:active {
+  background-color: #836b0b56;
+  box-shadow: 0px 5px 5px 0px #000000;
+  transform: translateY(4px);
 }
 
 .button1 {
@@ -311,8 +318,15 @@ background property fills every pixels of the device opposed to background color
   background-color: transparent;
   background-color: #836b0b56;
   color: rgba(255, 255, 255, 0.897);
-  transform: skew(-20deg);
+  /* transform: skew(-20deg); */
+  transform: translateY(4px);
   border: 1px solid #a55c1b;
+}
+
+.button1:active {
+  background-color: #836b0b56;
+  box-shadow: 0px 5px 5px 0px #000000;
+  transform: translateY(4px);
 }
 
 .video-flex {
