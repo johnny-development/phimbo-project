@@ -1,0 +1,100 @@
+html {
+  background-color: blanchedalmond;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*Main Box Content*/
+.modalBox {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: black;
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+/*When the href are clicked*/
+.modalBox:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+/*Positioning of the child box*/
+.modalBox > div {
+  width: 150%;
+  max-width: 500px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 0px;
+  background: rgba(255, 255, 255, 0);
+}
+/*Positioning and style of the close button*/
+.close {
+  margin-top: 5px;
+  background: white;
+  color: black;
+  line-height: 30px;
+  position: absolute;
+  right: 20px;
+  top: 1px;
+  text-align: center;
+  width: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: none;
+  border: none;
+}
+/*Style when mouse hovers on the close button*/
+.close:hover {
+  background: black;
+  color: white;
+}
+/*Default style of the open pop-up button*/
+.button {
+  background-color: black;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 2px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(158, 48, 48);
+}
+
+img {
+  border-radius: 10px;
+}
+
+.full-image {
+  margin: 0px 1px;
+  flex-basis: 500px;
+  margin-top: 15px;
+  box-shadow: 0px 5px 5px 0px #000000;
+  -moz-box-shadow: 0px 5px 5px 0px #000000;
+  -webkit-box-shadow: 0px 5px 5px 0px #000000;
+}
